@@ -1,0 +1,43 @@
+{
+  "name": "tv-kills",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^1.2.4",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/material": "^5.10.13",
+    "@mui/styled-engine-sc": "^5.10.6",
+    "aos": "^2.3.4",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.3",
+    "flowbite": "^1.5.3",
+    "flowbite-react": "^0.3.4",
+    "jquery": "^3.6.1",
+    "next": "13.0.3",
+    "react": "18.2.0",
+    "react-alice-carousel": "^2.6.4",
+    "react-chrono": "^1.19.2",
+    "react-dom": "18.2.0",
+    "react-hash-scroll": "^1.4.7",
+    "react-icons": "^4.6.0",
+    "react-multi-carousel": "^2.8.2",
+    "react-owl-carousel": "^2.3.3",
+    "react-stacked-carousel": "^1.1.4",
+    "react-stacked-center-carousel": "^1.0.12",
+    "react-vertical-timeline-component": "^3.5.2",
+    "styled-components": "^5.3.6",
+    "tw-elements": "^1.0.0-alpha12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  }
+}

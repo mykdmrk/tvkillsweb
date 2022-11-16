@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+html {
+  /* background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 100%); */
+  /* background: -webkit-linear-gradient(to right, #434343, #000000); */
+  /* background: linear-gradient(to right, #434343, #000000); */
+  font-family: "BAD", "sans-serif";
+  overflow-x: hidden;
+  background-color: black;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    /* transform: translateX(47px); */
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: "BAD";
+  src: url("../public/Bad Signal.otf");
+}
+@font-face {
+  font-family: "NORWESTER";
+  src: url("../public/norwester.otf");
+}
+
+body {
+  /* background: linear-gradient(to right, #434343, #000000); */
+
+  background: #0000;
+}
