@@ -57,7 +57,7 @@ export default function Faq() {
               className="text-transparent font-NORWESTER text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(2)}
             >
-              When is the mint data ?
+              When is the mint date ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
               TBA
