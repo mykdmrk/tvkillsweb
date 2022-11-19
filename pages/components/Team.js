@@ -114,7 +114,7 @@ export default function Team() {
           >
             <div class="h-96  ">
               <img
-                src="./artist.png"
+                src="./tvj3.PNG"
                 alt="JARED"
                 class="h-full object-cover "
               />
