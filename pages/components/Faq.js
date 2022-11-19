@@ -96,7 +96,7 @@ export default function Faq() {
               Is the team doxxed ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              Doxxing on progress
+              Yes, Doxxed by Bearmarket.io
             </AccordionBody>
           </Accordion>
         </Fragment>
