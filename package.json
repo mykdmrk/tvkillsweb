@@ -33,6 +33,7 @@
     "react-stacked-carousel": "^1.1.4",
     "react-stacked-center-carousel": "^1.0.12",
     "react-vertical-timeline-component": "^3.5.2",
+    "sharp": "^0.31.2",
     "styled-components": "^5.3.6",
     "tw-elements": "^1.0.0-alpha12"
   },

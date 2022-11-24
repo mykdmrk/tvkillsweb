@@ -17,10 +17,7 @@ export default function Banner() {
           className="flex-1 items-center aos-init aos-animate sm:mx-auto"
           data-aos="fade-up"
         >
-          <img
-            src="./TV Kills full color logos 1-01.PNG"
-            className="w-[30%] block mx-auto"
-          ></img>
+          <img src="./logocpm.PNG" className="w-[30%] block mx-auto"></img>
           <p className="text-white text-center text-2xl mt-4 leading-8">
             {
               "Earth has been taken over by secret invaders who control the media and corporations. Humanity's only connection to their past lives comes from extreme escapism."
@@ -34,7 +31,7 @@ export default function Banner() {
               className="w-[30%]"
             >
               <button className=" flex justify-center items-center  mb-10 border-none   py-3  hover:bg-transparent hover:text-white  rounded-xl">
-                <img src="./Vector.png" className="w-[35%] block ml-0" />
+                <img src="./Vector.webp" className="w-[35%] block ml-0" />
               </button>
             </a>
             <a

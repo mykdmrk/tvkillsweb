@@ -1,6 +1,16 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/components/Banner": "pages/components/Banner.html",
+  "/components/Footer": "pages/components/Footer.html",
+  "/components/Faq": "pages/components/Faq.html",
+  "/components/Gallery": "pages/components/Gallery.html",
+  "/components/Navigation": "pages/components/Navigation.html",
+  "/components/PreLoader": "pages/components/PreLoader.html",
+  "/components/Roadmap": "pages/components/Roadmap.html",
+  "/components/Team": "pages/components/Team.html",
+  "/": "pages/index.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }
