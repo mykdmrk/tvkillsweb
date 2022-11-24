@@ -1,5 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 import { use, useEffect } from "react";
 export default function Team() {
   useEffect(() => {
@@ -23,9 +24,15 @@ export default function Team() {
             data-aos="fade-right"
           >
             <div class="h-96  ">
-              <img src="./dev.png" alt="STEVE" class="h-full  " />
+              <Image
+                src="/dev.png"
+                alt="HORRISH"
+                width={384}
+                height={384}
+                class="h-full"
+              />
             </div>
-            <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
+            <div class="px-4 py-12 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">STEVE</h1>
               <h3 class="text-xl font-NORWESTER font-semibold mt-4">
                 Developer
@@ -52,10 +59,17 @@ export default function Team() {
             class="flex flex-col bg-white w-fit text-black aos-init max-h-[70vh] max-w-[95vw] mb-36"
             data-aos="zoom-out"
           >
-            <div class="h-96">
-              <img src="./pgmanager.PNG" alt="HORRISH" class="h-full " />
+            <div class="h-96 realtive">
+              {/* <img src="./pgmanager.PNG" alt="HORRISH" class="h-full " /> */}
+              <Image
+                src="/pgmanager.PNG"
+                alt="HORRISH"
+                width={384}
+                height={384}
+                class="h-full"
+              />
             </div>
-            <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
+            <div class="px-4 py-12 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">HORRISH</h1>
               <h3 class="text-xl font-NORWESTER font-semibold mt-4">
                 Project Manager
@@ -83,9 +97,16 @@ export default function Team() {
             data-aos="zoom-out"
           >
             <div class="h-96">
-              <img src="./content.PNG" alt="DUKE" class="h-full " />
+              <Image
+                src="/content.PNG"
+                alt="HORRISH"
+                width={384}
+                height={384}
+                class="h-full"
+              />
+              {/* <img src="./content.PNG" alt="DUKE" class="h-full " /> */}
             </div>
-            <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
+            <div class="px-4 py-12 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">DUKE</h1>
               <h3 class="text-xl font-NORWESTER font-semibold mt-4 ">
                 Content Creator
@@ -113,13 +134,16 @@ export default function Team() {
             data-aos="fade-left"
           >
             <div class="h-96  ">
-              <img
-                src="./tvj3.PNG"
+              <Image
+                src="/tvj3.PNG"
                 alt="JARED"
-                class="h-full object-cover "
+                width={384}
+                height={384}
+                class="h-full"
               />
+              {/* <img src="./tvj3.PNG" alt="JARED" class="h-full object-cover " /> */}
             </div>
-            <div class="px-4 py-8 text-center bg-gradient-to-r from-purple-400 to-pink-600">
+            <div class="px-4 py-6 text-center bg-gradient-to-r from-purple-400 to-pink-600">
               <h1 class="text-3xl font-newton">JARED</h1>
               <h3 class="text-xl font-NORWESTER font-semibold mt-4">Artist</h3>
               <button class="mt-4">

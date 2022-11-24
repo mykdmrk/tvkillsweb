@@ -12,23 +12,23 @@ import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 
 export const data = [
   {
-    cover: "./1.PNG",
+    cover: "./1.webp",
     title: "Venom",
   },
   {
-    cover: "./2.PNG",
+    cover: "./2.webp",
     title: "Steins Gate",
   },
   {
-    cover: "./3.PNG",
+    cover: "./3.webp",
     title: "One Punch Man",
   },
   {
-    cover: "./4.PNG",
+    cover: "./4.webp",
     title: "A Silent Voice",
   },
   {
-    cover: "./5.PNG",
+    cover: "./5.webp",
     title: "Demon Slayer",
   },
   // {
