@@ -6,7 +6,6 @@ import Team from "./components/Team";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Head from "next/head";
-import { Title } from "@material-ui/icons";
 
 // import { BrowserRouter } from "react-router-dom"; //Can use HashRouter or MemoryRouter as well
 // import { HashScroll } from "react-hash-scroll";
