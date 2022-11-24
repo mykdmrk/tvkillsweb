@@ -26,7 +26,7 @@ export default function Team() {
             <div class="h-96  ">
               <Image
                 src="/dev.png"
-                alt="HORRISH"
+                alt="STEVE"
                 width={384}
                 height={384}
                 class="h-full"
@@ -99,7 +99,7 @@ export default function Team() {
             <div class="h-96">
               <Image
                 src="/content.PNG"
-                alt="HORRISH"
+                alt="DUKE"
                 width={384}
                 height={384}
                 class="h-full"
