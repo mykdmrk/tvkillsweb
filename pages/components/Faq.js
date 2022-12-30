@@ -49,7 +49,7 @@ export default function Faq() {
               What is the collection size ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              TBA
+              4444
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 2}>
@@ -60,7 +60,7 @@ export default function Faq() {
               When is the mint date ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              TBA
+              JAN 10 2023
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 3}>
@@ -71,7 +71,7 @@ export default function Faq() {
               What is the Mint price ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              TBA
+              <div> Cultpass Holders = 80ADA <br/>WL & Mint = 88ADA </div>
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 4}>
@@ -83,9 +83,9 @@ export default function Faq() {
             </AccordionHeader>
             <AccordionBody className="text-lg text-white font-NORWESTER">
               Priority minting in every upcoming drop in TVKills. Lifetime
-              Whitelist for every upcoming drop. Holders will receive 10% of the
+              Whitelist for every upcoming drop. Holders will receive 15% of the
               Royalties received from the main drop. Will be eligible for other
-              exclusive Collab WL raffles.
+              exclusive Collab WL raffles. Cultpass Holders gets the highest Staking reward.
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 5}>
@@ -96,7 +96,7 @@ export default function Faq() {
               Is the team doxxed ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              Yes, Doxxed by Bearmarket.io
+              Yes, Doxxed by Bearmarket.io & Blockinvestmentgroup.
             </AccordionBody>
           </Accordion>
         </Fragment>
