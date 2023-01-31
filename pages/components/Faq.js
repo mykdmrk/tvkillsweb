@@ -57,10 +57,13 @@ export default function Faq() {
               className="text-transparent font-NORWESTER text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(2)}
             >
-              When is the mint date ?
+              What are the benifits of holding the Cultpass ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              JAN 10 2023
+              Priority minting in every upcoming drop in TVKills. Lifetime
+              Whitelist for every upcoming drop. Holders will receive 15% of the
+              Royalties received from the main drop. Will be eligible for other
+              exclusive Collab WL raffles. Cultpass Holders gets the highest Staking reward.
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 3}>
@@ -68,10 +71,10 @@ export default function Faq() {
               className="text-transparent font-NORWESTER hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(3)}
             >
-              What is the Mint price ?
+              What are the benifits of holding the Patron Id ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              <div> Cultpass Holders = 80ADA <br/>WL & Mint = 88ADA </div>
+              Patron Id is a special drop by TVKills which provides various utility for our Trait Formation Platform which will be airdropped to the Cultpass holders and Diamond hands of the TVKills main collection!
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 4}>
@@ -79,13 +82,10 @@ export default function Faq() {
               className="text-left font-NORWESTER text-transparent hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(4)}
             >
-              What are the benifits of holding the Cultpass ?
+              Is the team doxxed ?
             </AccordionHeader>
             <AccordionBody className="text-lg text-white font-NORWESTER">
-              Priority minting in every upcoming drop in TVKills. Lifetime
-              Whitelist for every upcoming drop. Holders will receive 15% of the
-              Royalties received from the main drop. Will be eligible for other
-              exclusive Collab WL raffles. Cultpass Holders gets the highest Staking reward.
+              Yes, Doxxed by Bearmarket.io & Blockinvestmentgroup.
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 5}>
@@ -93,10 +93,10 @@ export default function Faq() {
               className="text-transparent font-NORWESTER hover:text-transparent text-left bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 hover:text-white"
               onClick={() => handleOpen(5)}
             >
-              Is the team doxxed ?
+              Policy Id for TV Token ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              Yes, Doxxed by Bearmarket.io & Blockinvestmentgroup.
+              efa0e694d5915f52b00a0d01135efdb85a0bdde7009bbcf68ea12a3d.
             </AccordionBody>
           </Accordion>
         </Fragment>
