@@ -96,7 +96,7 @@ export default function Faq() {
               Policy Id for TV Token ?
             </AccordionHeader>
             <AccordionBody className="text-lg font-NORWESTER text-white">
-              efa0e694d5915f52b00a0d01135efdb85a0bdde7009bbcf68ea12a3d.
+               <div> efa0e694d5915f52b00a0d01135efdb85a0bdde7009bbcf68ea12a3d </div>
             </AccordionBody>
           </Accordion>
         </Fragment>
