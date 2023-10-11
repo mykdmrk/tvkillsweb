@@ -103,7 +103,7 @@ export default function Footer() {
                 </button>
               </a>
               <a
-                href="https://discord.gg/BgRyZsW9"
+                href="https://discord.com"
                 target="_blank"
                 rel="noreferrer"
                 className="w-[20%]"
